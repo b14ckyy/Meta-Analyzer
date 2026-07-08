@@ -109,6 +109,7 @@ npm run tauri build
 ## Documentation
 
 - **[User Guide](docs/user-guide.md)** — install, first-run setup, tagging photos & videos.
+- Visual walkthroughs — **[Interface](docs/interface-overview.md)** · **[Tagging Photos](docs/tagging-photos.md)** · **[Tagging Videos](docs/tagging-videos.md)**
 - **[Developer docs](docs/dev/)** — architecture, build, data flow, prompt builder, metadata format.
 
 ## License
