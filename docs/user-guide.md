@@ -74,6 +74,9 @@ Tags are written to EXIF/IPTC/XMP, which Plex, Jellyfin, Lightroom, etc. read.
   **Rules folder** button next to *Content Type* to open the folder; drop in your
   own category files (or optional add-on packs) and they appear in the dropdown
   automatically.
+- **Optional profile packs** are available in the
+  [extra_profiles](extra_profiles/) folder — download one, unzip it, and drop the
+  files into your content-rules folder (via the **Rules folder** button).
 
 ## 7. Language
 
