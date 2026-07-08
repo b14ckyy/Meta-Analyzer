@@ -34,6 +34,9 @@ Write-Host ""
 $now       = Get-Date
 $Version   = '{0}.{1}.{2}' -f $now.ToString('yy'), [int]$now.Month, [int]$now.Day
 $DateLabel = $now.ToString('yyyy-MM-dd')
+# Date form used in the distributed file names (SemVer can't have dashes, so the
+# installer/portable artifacts get the calendar label instead of "26.7.8").
+$DateName  = $now.ToString('yy-MM-dd')
 Write-Host "Version: $Version  ($DateLabel)" -ForegroundColor Cyan
 
 function Set-JsonVersion([string]$RelPath, [string]$Ver) {
@@ -92,8 +95,11 @@ Write-Host "[3/4] Collecting installer ..." -ForegroundColor Yellow
 $Installer = Get-ChildItem (Join-Path $TargetDir 'bundle\nsis') -Filter '*-setup.exe' -ErrorAction SilentlyContinue |
     Select-Object -First 1
 if ($Installer) {
-    Copy-Item $Installer.FullName (Join-Path $OutputDir $Installer.Name) -Force
-    Write-Host "      Installer: $($Installer.Name)"
+    # Tauri names the installer with the SemVer version (26.7.8); rename the copy
+    # to the calendar form (26-07-08) for distribution.
+    $InstallerOut = $Installer.Name -replace [regex]::Escape($Version), $DateName
+    Copy-Item $Installer.FullName (Join-Path $OutputDir $InstallerOut) -Force
+    Write-Host "      Installer: $InstallerOut"
 } else {
     Write-Host "      WARN: no NSIS installer found (check bundle.active / targets)" -ForegroundColor DarkYellow
 }
@@ -126,8 +132,8 @@ https://developer.microsoft.com/en-us/microsoft-edge/webview2/
 "@
 Set-Content -Path (Join-Path $Portable 'README.txt') -Value $Readme -Encoding UTF8
 
-# Zip the portable folder for distribution
-$Zip = Join-Path $OutputDir 'Meta-Analyzer-Portable.zip'
+# Zip the portable folder for distribution (calendar-dated name)
+$Zip = Join-Path $OutputDir ('Meta-Analyzer-Portable_{0}.zip' -f $DateName)
 Compress-Archive -Path $Portable -DestinationPath $Zip -Force
 
 # Version marker
