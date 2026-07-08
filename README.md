@@ -1,6 +1,14 @@
-# Meta-Analyzer
+<h1 align="center">Meta-Analyzer</h1>
 
-**AI-powered metadata tagger for your photo and video library.**
+<p align="center"><b>AI-powered metadata tagger for your photo and video library.</b></p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg"></a>
+  <img alt="Platform: Windows" src="https://img.shields.io/badge/platform-Windows-555">
+  <a href="https://github.com/b14ckyy/Meta-Analyzer/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/b14ckyy/Meta-Analyzer?display_name=tag&color=37a8db"></a>
+  <a href="docs/user-guide.md"><img alt="User Guide" src="https://img.shields.io/badge/docs-user%20guide-37a8db"></a>
+  <a href="https://paypal.me/b14ckyy"><img alt="Donate via PayPal" src="https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white"></a>
+</p>
 
 Meta-Analyzer is a local-first desktop app that looks at your images and videos
 with a **vision LLM** and writes descriptive tags (and, for videos, a title,
