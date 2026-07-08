@@ -21,6 +21,10 @@ machine. An optional API key lets you point it at a private/cloud server instead
 
 Built with **Tauri 2 · Svelte 5 · Rust**.
 
+<p align="center">
+  <img alt="Meta-Analyzer main window" src="docs/images/main_screen.jpg" width="900">
+</p>
+
 ---
 
 ## Features
