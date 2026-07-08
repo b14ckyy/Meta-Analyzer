@@ -33,3 +33,6 @@ node_modules/
 # repo. Local pack files placed in the app's content_rules folder are not tracked.
 content-packs/local/
 
+# Local-only working notes (research, feature ideas, scratch docs)
+docs/local/
+
