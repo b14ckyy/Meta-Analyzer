@@ -61,6 +61,9 @@ Write-Host ""
 # [1/4] Build frontend + Rust release + NSIS installer
 Write-Host "[1/4] tauri build (frontend + release + installer)..." -ForegroundColor Yellow
 Write-Host "      This may take several minutes on first run."
+# tauri does not clean bundle/nsis, so old installers pile up. Remove stale ones
+# first so we never accidentally collect a previous build's setup.exe.
+Remove-Item (Join-Path $ProjectRoot 'target\release\bundle\nsis\*-setup.exe') -Force -ErrorAction SilentlyContinue
 # node/cargo print progress to stderr; under $ErrorActionPreference='Stop'
 # PowerShell 5.1 turns that into a fatal NativeCommandError. Relax it just for
 # the native build call and gate on the real exit code instead.
@@ -92,8 +95,15 @@ New-Item -ItemType Directory -Path $OutputDir | Out-Null
 # [3/4] Collect the installer
 Write-Host ""
 Write-Host "[3/4] Collecting installer ..." -ForegroundColor Yellow
-$Installer = Get-ChildItem (Join-Path $TargetDir 'bundle\nsis') -Filter '*-setup.exe' -ErrorAction SilentlyContinue |
-    Select-Object -First 1
+$NsisDir = Join-Path $TargetDir 'bundle\nsis'
+# Pick the installer for THIS version (tauri names it Meta-Analyzer_<ver>_x64-setup.exe);
+# fall back to the newest setup.exe if the name ever changes.
+$Installer = Get-ChildItem $NsisDir -Filter ('*_{0}_*-setup.exe' -f $Version) -ErrorAction SilentlyContinue |
+    Sort-Object LastWriteTime -Descending | Select-Object -First 1
+if (-not $Installer) {
+    $Installer = Get-ChildItem $NsisDir -Filter '*-setup.exe' -ErrorAction SilentlyContinue |
+        Sort-Object LastWriteTime -Descending | Select-Object -First 1
+}
 if ($Installer) {
     # Tauri names the installer with the SemVer version (26.7.8); rename the copy
     # to the calendar form (26-07-08) for distribution.
