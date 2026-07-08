@@ -1,0 +1,70 @@
+{
+  "productName": "Meta-Analyzer",
+  "version": "26.7.8",
+  "identifier": "com.meta-analyzer.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Meta-Analyzer",
+        "width": 1400,
+        "height": 900,
+        "minWidth": 800,
+        "minHeight": 600,
+        "resizable": true,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "enable": true,
+        "scope": ["**"]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": [
+      "content_rules/image_holidays_events.json",
+      "content_rules/image_family_kids.json",
+      "content_rules/image_pets_animals.json",
+      "content_rules/image_nature_travel.json",
+      "content_rules/image_food_cooking.json",
+      "content_rules/image_sports_fitness.json",
+      "content_rules/image_architecture_interiors.json",
+      "content_rules/image_fashion_style.json",
+      "content_rules/image_cars_vehicles.json",
+      "content_rules/image_music_concerts.json",
+      "content_rules/image_art_culture.json",
+      "content_rules/image_business_work.json",
+      "content_rules/video_travel.json",
+      "content_rules/video_parties.json",
+      "content_rules/video_nature.json",
+      "content_rules/video_tech.json",
+      "content_rules/video_sports.json",
+      "content_rules/video_music.json",
+      "content_rules/video_cars.json",
+      "content_rules/video_cooking.json",
+      "content_rules/video_family.json",
+      "content_rules/video_pets.json",
+      "content_rules/video_gaming.json",
+      "content_rules/video_tutorial.json"
+    ]
+  },
+  "plugins": {}
+}

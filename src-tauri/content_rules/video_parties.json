@@ -1,0 +1,45 @@
+{
+  "label": "Parties & Events",
+  "specialRules": [
+    "Analyze ALL frames together to describe the whole event, not individual frames.",
+    "Focus on the event type, atmosphere, decorations, venue and group activities that are clearly visible.",
+    "Tag the kind of celebration (wedding, birthday, festival), the venue (club, hall, garden) and party elements (dancing, drinks, cake).",
+    "Prioritize the overall event energy and setting over generic person tags.",
+    "Tag food, drinks, lighting and decorations when clearly shown.",
+    "Only tag what is clearly visible across the frames; do not assume the occasion if it is ambiguous."
+  ],
+  "genres": [
+    "Party", "Wedding", "Birthday", "Festival", "Nightlife", "Concert",
+    "Celebration", "Ceremony", "Rave", "New Year", "Carnival", "Graduation",
+    "Reunion", "House Party", "Bachelor Party", "Holiday"
+  ],
+  "allowedTags": [
+    "party", "celebration", "wedding", "birthday", "anniversary", "graduation", "reunion",
+    "festival", "carnival", "parade", "rave", "nightlife", "gala", "banquet",
+    "new_year", "halloween_party", "christmas_party", "themed_party", "costume_party", "masquerade",
+    "nightclub", "club", "bar", "lounge", "pub", "beer_garden", "rooftop", "ballroom",
+    "banquet_hall", "event_venue", "tent", "marquee", "backyard", "garden", "beach", "poolside",
+    "house_party", "garden_party", "pool_party", "beach_party", "block_party", "office_party",
+    "dance_floor", "stage", "podium", "vip_area", "bar_counter", "photo_booth", "red_carpet",
+    "dj", "dj_booth", "turntables", "live_band", "singer", "performer", "mc", "host",
+    "dancing", "dancing_crowd", "clubbing", "moshpit", "crowd_surfing", "conga_line",
+    "drinking", "toasting", "cheersing", "cheering", "singing", "karaoke", "chanting",
+    "laughing", "hugging", "kissing", "high_five", "clapping", "posing", "mingling",
+    "guests", "crowd", "audience", "partygoers", "revelers", "bride", "groom", "bridesmaid",
+    "groomsman", "best_man", "flower_girl", "birthday_person", "guest_of_honor",
+    "confetti", "streamers", "balloons", "balloon_arch", "banner", "garland", "bunting",
+    "fireworks", "sparklers", "firecrackers", "smoke_bomb", "flares", "cold_sparks",
+    "disco_ball", "neon_lights", "strobe_lights", "laser_lights", "led_lights", "fairy_lights",
+    "spotlight", "uplighting", "fog_machine", "bubble_machine", "confetti_cannon",
+    "cake", "birthday_cake", "wedding_cake", "cupcakes", "dessert_table", "candy_bar",
+    "candles", "cake_cutting", "blowing_candles", "champagne", "champagne_tower",
+    "cocktails", "beer", "wine", "shots", "punch_bowl", "keg", "open_bar", "bartender",
+    "buffet", "catering", "finger_food", "canapes", "snacks", "barbecue", "food_stall",
+    "decorations", "table_setting", "centerpiece", "flowers", "floral_arch", "backdrop",
+    "gifts", "presents", "gift_table", "party_favors", "party_hats", "masks", "glow_sticks",
+    "ceremony", "vows", "ring_exchange", "first_dance", "father_daughter_dance", "bouquet_toss",
+    "speech", "toast", "group_photo", "selfie", "family_photo", "candid_moment",
+    "festive", "lively", "energetic", "crowded", "wild", "elegant", "formal", "casual",
+    "intimate", "joyful", "glamorous", "colorful", "party_lights", "night_setting"
+  ]
+}

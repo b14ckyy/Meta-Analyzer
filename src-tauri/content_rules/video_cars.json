@@ -1,0 +1,39 @@
+{
+  "label": "Cars & Vehicles",
+  "specialRules": [
+    "Analyze ALL frames together to describe the vehicles and topic, not individual frames.",
+    "Focus on the vehicles, their type and body style, plus the activity (driving, racing, review, restoration) that is clearly visible.",
+    "Tag the vehicle type (sports car, suv, motorcycle), the setting (racetrack, garage, road) and visible details (engine, wheels, interior).",
+    "Tag car brands or models only when clearly identifiable; do not guess.",
+    "Tag any on-screen specs, gauges or comparison graphics when present.",
+    "Avoid generic tags when a more specific vehicle type or action fits better."
+  ],
+  "genres": [
+    "Review", "Test Drive", "Racing", "Off-Road", "Motorsport", "Restoration",
+    "Car Vlog", "Motorcycle", "Drifting", "Car Show", "Tuning", "Classic Cars",
+    "Overlanding", "Detailing", "POV Drive", "Comparison"
+  ],
+  "allowedTags": [
+    "car", "sports_car", "supercar", "hypercar", "sedan", "coupe", "convertible", "hatchback",
+    "suv", "crossover", "pickup_truck", "van", "minivan", "station_wagon", "muscle_car",
+    "classic_car", "vintage_car", "hot_rod", "luxury_car", "electric_car", "hybrid_car",
+    "race_car", "rally_car", "formula_car", "go_kart", "buggy", "off_road_vehicle", "jeep",
+    "motorcycle", "sportbike", "cruiser", "dirt_bike", "scooter", "moped", "quad_bike", "atv",
+    "truck", "semi_truck", "bus", "tractor", "camper", "rv", "limousine",
+    "engine", "engine_bay", "turbo", "exhaust", "wheels", "rims", "tires", "brakes", "suspension",
+    "dashboard", "steering_wheel", "gear_shifter", "cockpit", "interior", "seats", "infotainment",
+    "hood", "trunk", "spoiler", "body_kit", "headlights", "taillights", "grille", "bumper",
+    "driving", "test_drive", "pov_driving", "racing", "drag_race", "drifting", "burnout",
+    "cornering", "overtaking", "acceleration", "top_speed_run", "launch",
+    "off_roading", "rock_crawling", "mudding", "overlanding", "trail_driving",
+    "parking", "reversing", "cruising", "convoy", "road_trip",
+    "restoration", "repair", "maintenance", "oil_change", "tire_change", "engine_swap",
+    "tuning", "modification", "wrapping", "painting", "detailing", "washing", "polishing", "waxing",
+    "garage", "workshop", "car_lift", "pit_stop", "dealership", "showroom", "junkyard",
+    "racetrack", "circuit", "drag_strip", "rally_stage", "off_road_trail", "highway", "city_street",
+    "mountain_road", "coastal_road", "parking_lot", "car_show", "car_meet", "auto_expo",
+    "driver", "mechanic", "pit_crew", "spectators", "helmet", "racing_suit",
+    "speedometer", "tachometer", "gauge", "spec_sheet", "chart", "price_tag", "badge", "logo",
+    "night_drive", "wet_road", "sunset_drive", "scenic_drive", "close_up_detail"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "label": "Tech & Reviews",
+  "specialRules": [
+    "Analyze ALL frames together to describe the devices and topic of the video, not individual frames.",
+    "Focus on the devices, gadgets and technology shown, plus any on-screen demos, specs or comparisons.",
+    "Tag device types (smartphone, laptop, console) and actions (unboxing, testing, comparing, building) that are clearly visible.",
+    "Tag components, accessories and ports when clearly shown.",
+    "Include on-screen graphics, spec sheets or benchmark charts when present.",
+    "Avoid generic tags when a more specific device or component fits better."
+  ],
+  "genres": [
+    "Tech Review", "Unboxing", "Gadget", "Hardware", "Software", "PC Build",
+    "Smartphone", "Audio Gear", "Smart Home", "DIY Electronics", "Comparison", "Setup Tour",
+    "How-To", "Science", "Gaming Gear", "Camera Gear"
+  ],
+  "allowedTags": [
+    "smartphone", "phone", "iphone", "android_phone", "foldable_phone", "tablet", "e_reader",
+    "laptop", "notebook", "ultrabook", "desktop_pc", "gaming_pc", "mini_pc", "workstation",
+    "monitor", "ultrawide_monitor", "curved_monitor", "keyboard", "mechanical_keyboard", "mouse",
+    "trackpad", "webcam", "microphone", "headset", "headphones", "earbuds", "speaker", "soundbar",
+    "smartwatch", "fitness_tracker", "vr_headset", "ar_glasses", "smart_glasses",
+    "camera", "dslr", "mirrorless_camera", "action_camera", "drone", "gimbal", "tripod",
+    "game_console", "handheld_console", "controller", "gaming_chair", "capture_card",
+    "tv", "smart_tv", "projector", "streaming_stick", "set_top_box",
+    "router", "modem", "mesh_wifi", "nas", "external_drive", "ssd", "hard_drive", "usb_stick",
+    "power_bank", "charger", "charging_dock", "wireless_charger", "cable", "adapter", "dongle",
+    "smart_speaker", "smart_bulb", "smart_plug", "smart_thermostat", "security_camera", "doorbell",
+    "robot_vacuum", "3d_printer", "soldering_iron", "multimeter", "power_supply", "breadboard",
+    "drone", "quadcopter", "rc_car", "gadget", "wearable", "robot", "smart_device",
+    "unboxing", "review", "first_impressions", "hands_on", "comparison", "versus", "benchmark",
+    "testing", "demo", "walkthrough", "setup", "installation", "teardown", "repair", "mod",
+    "pc_build", "cable_management", "wiring", "soldering", "upgrade", "overclocking",
+    "circuit_board", "motherboard", "cpu", "processor", "gpu", "graphics_card", "ram",
+    "cooling_fan", "liquid_cooling", "heatsink", "chip", "sensor", "battery", "port", "usb_c",
+    "hdmi", "sd_card", "sim_card", "screen", "display", "touchscreen", "oled", "camera_module",
+    "software", "app", "operating_system", "user_interface", "dashboard", "website", "browser",
+    "code", "terminal", "settings_menu", "firmware", "update_screen",
+    "workbench", "desk_setup", "workspace", "studio", "product_shot", "close_up_device",
+    "spec_sheet", "specifications", "chart", "graph", "price_tag", "packaging", "box",
+    "presenter", "talking_head", "reviewer", "hand_holding_device", "on_screen_text"
+  ]
+}

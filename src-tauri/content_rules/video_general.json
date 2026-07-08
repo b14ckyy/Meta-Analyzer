@@ -1,0 +1,40 @@
+{
+  "specialRules": [
+    "Analyze ALL frames together to describe the whole video, not individual frames.",
+    "This is the generalist catch-all category. Describe whatever is actually shown across any subject.",
+    "Tag the setting/scenes, the people or characters, the main actions and the overall atmosphere.",
+    "If a single scene occupies most frames, focus on that scene; if several distinct scenes exist, mention them.",
+    "Tag only what is clearly visible in the frames; do not assume content you cannot see.",
+    "Avoid a generic tag when a more specific and clearly-visible one fits better."
+  ],
+  "genres": [
+    "Vlog", "Travel", "Food", "Cooking", "Tutorial", "DIY", "Gaming",
+    "Tech", "Fitness", "Dance", "Music", "Beauty", "Reaction", "Challenge",
+    "Educational", "Nature", "Pets", "Family", "Comedy", "Outdoor", "Sports",
+    "Art", "Event", "Documentary"
+  ],
+  "allowedTags": [
+    "man", "woman", "child", "baby", "teenager", "adult", "senior", "person",
+    "group", "family", "couple", "crowd", "people", "male", "female", "boy", "girl",
+    "host", "presenter", "guest", "performer", "audience",
+    "talking", "walking", "running", "dancing", "singing", "playing", "posing", "eating",
+    "drinking", "cooking", "working", "shopping", "driving", "flying", "swimming",
+    "cycling", "climbing", "exercising", "celebrating", "demonstrating",
+    "animal", "dog", "cat", "pet", "bird", "wildlife",
+    "nature", "landscape", "mountain", "forest", "tree", "beach", "ocean", "lake", "river",
+    "garden", "park", "field", "sky", "sunset", "sunrise",
+    "city", "street", "road", "building", "house", "skyline", "bridge",
+    "indoor", "outdoor", "room", "kitchen", "office", "studio", "stage", "shop", "restaurant",
+    "car", "bicycle", "motorcycle", "boat", "train", "airplane", "vehicle",
+    "food", "meal", "drink", "product", "gadget", "phone", "computer", "screen", "tool",
+    "event", "party", "wedding", "concert", "festival", "ceremony", "meeting", "competition",
+    "sport", "game", "art", "craft", "performance", "interview", "demonstration",
+    "day", "night", "morning", "evening",
+    "sunny", "cloudy", "rainy", "snowy", "summer", "winter", "spring", "autumn",
+    "closeup", "wide_shot", "aerial_view",
+    "bright", "dark", "colorful", "black_and_white", "vibrant", "vintage",
+    "text_overlay", "subtitles", "animation", "live_action",
+    "happy", "serious", "dramatic", "funny", "romantic", "calm", "energetic",
+    "relaxing", "exciting", "wholesome", "home_video", "professional_production"
+  ]
+}

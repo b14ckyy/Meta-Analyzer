@@ -1,0 +1,48 @@
+{
+  "label": "Sports & Fitness",
+  "specialRules": [
+    "Analyze ALL frames together to describe the sport and setting, not individual frames.",
+    "Focus on the sport or activity, the venue, equipment and the action that is clearly visible.",
+    "Tag the specific sport, the playing surface (court, pitch, track, gym) and any visible score or teams.",
+    "Tag equipment, gear and uniforms when clearly shown.",
+    "Include athletes and spectators as part of the scene; prioritize the sport and action over generic person tags.",
+    "Avoid generic tags when a more specific sport or move fits better."
+  ],
+  "genres": [
+    "Football", "Basketball", "Combat Sports", "Motorsport", "Fitness", "Yoga",
+    "Extreme Sports", "Winter Sports", "Water Sports", "Athletics", "Cycling", "Tennis",
+    "Golf", "Team Sports", "Running", "Gymnastics"
+  ],
+  "allowedTags": [
+    "soccer", "football", "american_football", "basketball", "baseball", "cricket", "rugby",
+    "hockey", "ice_hockey", "field_hockey", "volleyball", "handball", "tennis", "table_tennis",
+    "badminton", "squash", "golf", "bowling", "billiards", "darts",
+    "boxing", "kickboxing", "mma", "wrestling", "judo", "karate", "taekwondo", "muay_thai", "jiu_jitsu",
+    "running", "sprinting", "marathon", "jogging", "hurdles", "long_jump", "high_jump", "pole_vault",
+    "javelin", "shot_put", "discus", "relay_race",
+    "cycling", "mountain_biking", "bmx", "road_cycling", "track_cycling",
+    "swimming", "diving", "water_polo", "surfing", "windsurfing", "kitesurfing", "wakeboarding",
+    "kayaking", "canoeing", "rowing", "sailing", "rafting", "jet_ski",
+    "skiing", "snowboarding", "cross_country_skiing", "ski_jumping", "ice_skating", "figure_skating",
+    "sledding", "bobsled", "curling", "snowmobiling",
+    "skateboarding", "rollerblading", "parkour", "climbing", "bouldering", "rock_climbing",
+    "bungee_jumping", "skydiving", "paragliding", "base_jumping", "zip_lining",
+    "motorsport", "formula_racing", "rally", "motocross", "supercross", "drag_racing", "drifting",
+    "karting", "superbike", "off_road_racing",
+    "horse_racing", "equestrian", "show_jumping", "polo", "rodeo",
+    "gymnastics", "acrobatics", "cheerleading", "dance_sport", "figure_routine",
+    "weightlifting", "powerlifting", "bodybuilding", "crossfit", "calisthenics",
+    "fitness", "workout", "gym", "cardio", "hiit", "strength_training", "stretching",
+    "yoga", "pilates", "aerobics", "spinning", "zumba", "personal_training",
+    "dribbling", "shooting", "passing", "tackle", "goal", "slam_dunk", "touchdown", "home_run",
+    "serve", "smash", "kickoff", "penalty", "free_throw", "sprint_finish", "knockout",
+    "stadium", "arena", "court", "pitch", "field", "track", "gymnasium", "ring", "octagon",
+    "pool", "rink", "slopes", "ramp", "racetrack", "velodrome", "dojo", "mat",
+    "athlete", "player", "team", "coach", "referee", "goalkeeper", "boxer", "runner", "cyclist",
+    "spectators", "crowd", "fans", "cheering_crowd", "stands", "podium", "trophy", "medal",
+    "jersey", "uniform", "helmet", "gloves", "cleats", "ball", "racket", "bat", "net", "goalpost",
+    "dumbbell", "barbell", "kettlebell", "treadmill", "yoga_mat", "boxing_bag", "surfboard",
+    "scoreboard", "timer", "finish_line", "starting_line", "victory", "celebration", "competition",
+    "training", "practice", "match", "tournament", "championship", "warm_up"
+  ]
+}

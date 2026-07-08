@@ -1,0 +1,11 @@
+{
+  "specialRules": [
+    "Analyze ALL frames together to describe the entire video, not individual frames",
+    "Follow the user's custom instructions above all else",
+    "Consider: setting/scenes, people/characters, actions, style, atmosphere, genre",
+    "Tag what you clearly see — do not assume content that is not visible",
+    "Avoid generic tags when a more specific one fits better"
+  ],
+  "genres": [],
+  "allowedTags": []
+}

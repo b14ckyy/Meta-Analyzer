@@ -1,0 +1,36 @@
+{
+  "label": "Nature & Travel",
+  "specialRules": [
+    "Focus on the environment, landscape, location, landmarks and travel-related elements.",
+    "Tag natural formations, scenery, famous places and travel infrastructure (transport, accommodation) when clearly visible.",
+    "Tag travel activities (hiking, diving, sightseeing) and the mode of transport when clear.",
+    "Include people only when they are actively part of the travel or nature scene (hiking, sightseeing, camping, posing at landmarks)."
+  ],
+  "allowedTags": [
+    "mountain", "hill", "valley", "forest", "jungle", "desert", "beach",
+    "ocean", "sea", "lake", "river", "waterfall", "canyon", "cave",
+    "island", "peninsula", "cliff", "rock", "sand", "dunes",
+    "glacier", "volcano", "fjord", "archipelago", "reef", "coral",
+    "mangrove", "wetland", "swamp", "savanna", "grassland", "tundra",
+    "plateau", "ridge", "peak", "summit", "hot_spring", "geyser",
+    "palm_trees", "tropical", "scenic_view", "viewpoint", "panorama",
+    "trail", "path", "bridge", "tunnel", "cable_car", "ferry", "cruise_ship",
+    "lighthouse", "windmill", "signpost", "map", "compass",
+    "suitcase", "backpack", "tent", "camping",
+    "hiking", "trekking", "climbing", "skiing", "snowboarding",
+    "surfing", "diving", "snorkeling", "sailing", "boating", "fishing",
+    "kayaking", "canoeing", "rafting", "paragliding", "hot_air_balloon",
+    "sightseeing", "road_trip",
+    "airplane", "train", "car", "bus", "motorcycle", "bicycle", "scooter",
+    "airport", "train_station", "harbor", "port",
+    "hotel", "resort", "hostel", "cabin", "lodge", "villa", "swimming_pool",
+    "castle", "palace", "temple", "church", "mosque", "pagoda", "shrine",
+    "pyramid", "tower", "statue", "monument", "landmark", "fountain",
+    "ruins", "archaeological_site",
+    "national_park", "nature_reserve", "wildlife_sanctuary", "zoo", "aquarium",
+    "museum", "market", "bazaar", "old_town",
+    "village", "town", "city", "skyline",
+    "storm", "lightning", "rainbow", "aurora", "starry_sky",
+    "tourist", "local_culture", "street_food", "souvenir"
+  ]
+}

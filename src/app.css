@@ -1,0 +1,155 @@
+/*
+   Meta-Analyzer - AI-powered metadata tagger for photos and videos.
+   Copyright (C) 2026 b14ckyy
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Semantisches Farbsystem (Hell = :root, Dunkel = .dark) ─────────────────
+   Werte als "R G B" (Space-getrennt) für Tailwind-Alpha-Support:
+   z.B. bg-surface, text-content, border-line, bg-accent, text-muted … */
+:root {
+  --c-base: 240 242 247;      /* App-Hintergrund (sanftes Grau) */
+  --c-surface: 255 255 255;   /* Karten/Panels */
+  --c-surface2: 245 247 251;  /* leicht abgesetzt (Header, Inputs) */
+  --c-content: 24 32 47;      /* Primärtext */
+  --c-muted: 100 116 139;     /* Sekundärtext */
+  --c-line: 226 231 239;      /* Rahmen/Trenner */
+  --c-accent: 99 102 241;     /* Indigo-500 */
+  --c-accent2: 139 92 246;    /* Violet-500 */
+  --c-success: 22 163 74;
+  --c-warning: 217 119 6;
+  --c-danger: 220 38 38;
+
+  --shadow-soft: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-card: 0 1px 2px rgba(16, 24, 40, 0.06), 0 4px 12px rgba(16, 24, 40, 0.06);
+  --shadow-glow: 0 6px 18px rgba(99, 102, 241, 0.35);
+}
+
+.dark {
+  --c-base: 9 12 20;          /* tiefes Navy-Slate */
+  --c-surface: 20 25 38;      /* Karten/Panels */
+  --c-surface2: 28 34 51;     /* leicht angehoben */
+  --c-content: 226 232 242;
+  --c-muted: 148 163 184;
+  --c-line: 39 47 66;
+  --c-accent: 129 140 248;    /* Indigo-400 (heller für Dark) */
+  --c-accent2: 167 139 250;   /* Violet-400 */
+  --c-success: 34 197 94;
+  --c-warning: 245 158 11;
+  --c-danger: 239 68 68;
+
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 6px 16px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 6px 20px rgba(129, 140, 248, 0.45);
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(var(--c-base));
+  color: rgb(var(--c-content));
+}
+
+/* Sanfter Theme-Wechsel (nur Flächen/Rahmen animieren, nicht Text/Transform). */
+*,
+*::before,
+*::after {
+  transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* ── Custom Scrollbars (themed) ─────────────────────────────────────────── */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--c-line)) transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--c-line));
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(var(--c-muted) / 0.6);
+  background-clip: content-box;
+}
+
+/* ── Progress (themed, mit Akzent-Verlauf) ──────────────────────────────── */
+progress {
+  appearance: none;
+  background-color: rgb(var(--c-line));
+  border-radius: 9999px;
+  overflow: hidden;
+}
+progress::-webkit-progress-bar {
+  background-color: rgb(var(--c-line));
+  border-radius: 9999px;
+  overflow: hidden;
+}
+progress::-webkit-progress-value {
+  background: linear-gradient(90deg, rgb(var(--c-accent)), rgb(var(--c-accent2)));
+  border-radius: 9999px;
+}
+progress::-moz-progress-bar {
+  background: linear-gradient(90deg, rgb(var(--c-accent)), rgb(var(--c-accent2)));
+  border-radius: 9999px;
+}
+
+/* ── Wiederverwendbare Button-Klassen ───────────────────────────────────── */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium
+      transition-colors disabled:cursor-not-allowed disabled:opacity-40 select-none;
+  }
+  .btn-primary {
+    @apply text-white shadow-glow;
+    background-image: linear-gradient(135deg, rgb(var(--c-accent)), rgb(var(--c-accent2)));
+  }
+  .btn-primary:hover:not(:disabled) {
+    filter: brightness(1.08);
+  }
+  .btn-secondary {
+    @apply bg-surface2 text-content border border-line hover:border-accent/50;
+  }
+  .btn-danger {
+    @apply bg-danger text-white hover:brightness-110;
+  }
+  .btn-warning {
+    @apply bg-warning text-white hover:brightness-110;
+  }
+  .card {
+    @apply bg-surface border border-line rounded-xl shadow-card;
+  }
+}

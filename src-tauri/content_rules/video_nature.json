@@ -1,0 +1,49 @@
+{
+  "label": "Nature & Documentary",
+  "specialRules": [
+    "Analyze ALL frames together to describe the subject and setting of the footage, not individual frames.",
+    "Focus on landscapes, wildlife, plants, natural phenomena and the environment that are clearly visible.",
+    "Tag animals, ecosystems and habitats you can clearly identify; do not guess a species you cannot see clearly.",
+    "Tag terrain, water features, weather and time of day when clearly shown.",
+    "If on-screen maps, diagrams or graphics are present, tag them.",
+    "Avoid generic tags when a more specific animal, plant or landform fits better."
+  ],
+  "genres": [
+    "Documentary", "Nature", "Wildlife", "Underwater", "Landscape", "Marine",
+    "Astronomy", "Environmental", "Educational", "Botanical", "Weather", "Mountains",
+    "Ocean", "Forest", "Desert", "Science"
+  ],
+  "allowedTags": [
+    "wildlife", "animal", "mammal", "bird", "fish", "reptile", "amphibian", "insect", "arachnid",
+    "predator", "prey", "herd", "flock", "pack", "swarm", "colony", "school_of_fish",
+    "lion", "tiger", "leopard", "cheetah", "jaguar", "bear", "wolf", "fox", "coyote", "hyena",
+    "elephant", "rhino", "hippo", "giraffe", "zebra", "buffalo", "antelope", "gazelle", "deer",
+    "monkey", "gorilla", "chimpanzee", "orangutan", "sloth", "kangaroo", "koala", "panda",
+    "whale", "dolphin", "shark", "orca", "seal", "sea_lion", "walrus", "otter", "manatee",
+    "turtle", "sea_turtle", "crocodile", "alligator", "snake", "lizard", "iguana", "chameleon",
+    "eagle", "hawk", "owl", "falcon", "vulture", "penguin", "flamingo", "pelican", "heron",
+    "parrot", "hummingbird", "woodpecker", "peacock", "swan", "duck", "goose", "seagull",
+    "butterfly", "bee", "dragonfly", "ant", "spider", "scorpion", "beetle", "firefly",
+    "jellyfish", "octopus", "squid", "crab", "starfish", "coral", "seahorse", "stingray",
+    "forest", "jungle", "rainforest", "woodland", "boreal_forest", "mangrove", "bamboo_forest",
+    "savanna", "grassland", "prairie", "steppe", "meadow", "moorland", "heath",
+    "desert", "sand_dunes", "oasis", "canyon", "mesa", "badlands",
+    "tundra", "arctic", "antarctic", "ice_field", "snowfield", "permafrost",
+    "wetland", "swamp", "marsh", "bog", "estuary", "delta", "mudflat",
+    "mountain", "peak", "ridge", "cliff", "valley", "gorge", "plateau", "foothills",
+    "ocean", "sea", "coast", "shoreline", "tide_pool", "coral_reef", "kelp_forest", "open_water",
+    "lake", "pond", "river", "stream", "waterfall", "rapids", "spring", "lagoon",
+    "glacier", "iceberg", "fjord", "volcano", "lava", "crater", "hot_spring", "geothermal",
+    "cave", "cavern", "sinkhole", "rock_formation", "boulder", "geological_layers",
+    "tree", "flower", "wildflower", "moss", "fern", "fungus", "mushroom", "cactus", "succulent",
+    "underwater", "reef", "deep_sea", "shipwreck", "diving", "aquatic_life", "plankton",
+    "ecosystem", "habitat", "biodiversity", "migration", "hunting", "grazing", "nesting",
+    "feeding", "mating", "hatching", "camouflage", "pollination", "predation",
+    "sunrise", "sunset", "golden_hour", "twilight", "dawn", "dusk",
+    "weather", "storm", "thunderstorm", "lightning", "rain", "snow", "fog", "mist", "rainbow",
+    "aurora", "northern_lights", "stars", "milky_way", "galaxy", "planet", "moon", "eclipse",
+    "microscope", "laboratory", "scientist", "researcher", "expedition", "field_study",
+    "narration", "infographic", "diagram", "map", "chart", "archival_footage", "reenactment",
+    "macro", "close_up_nature", "aerial_landscape", "drone_over_landscape", "scenic_view"
+  ]
+}

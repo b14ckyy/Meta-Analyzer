@@ -1,0 +1,37 @@
+{
+  "label": "Architecture & Interiors",
+  "specialRules": [
+    "Focus on architectural elements, building structures, interior design, materials and spatial character.",
+    "Tag the building or room type, the architectural style and the materials that are clearly visible.",
+    "Tag furniture, structural details (columns, arches, staircases) and design features when they define the space.",
+    "Prioritize visible structural and design elements over generic room or building tags."
+  ],
+  "allowedTags": [
+    "house", "apartment", "villa", "mansion", "castle", "palace",
+    "church", "cathedral", "temple", "mosque", "pagoda",
+    "skyscraper", "high_rise", "building", "tower", "bridge", "tunnel",
+    "stadium", "arena", "museum", "gallery", "library", "school", "university",
+    "hospital", "airport", "train_station", "hotel", "resort",
+    "restaurant", "cafe", "bar", "shop", "mall", "office", "factory", "warehouse",
+    "barn", "cabin", "hut", "lighthouse", "windmill",
+    "fountain", "statue", "monument", "ruins",
+    "modern", "traditional", "gothic", "baroque", "renaissance", "classical",
+    "minimalist", "industrial", "rustic", "contemporary", "victorian", "art_deco",
+    "brutalist", "postmodern", "organic", "futuristic",
+    "scandinavian", "japanese", "mediterranean", "bohemian",
+    "luxurious", "cozy", "maximalist", "eclectic",
+    "wooden", "concrete", "glass", "steel", "brick", "stone", "marble",
+    "granite", "tile", "carpet", "metal", "leather",
+    "window", "door", "roof", "ceiling", "floor", "wall",
+    "staircase", "elevator", "escalator",
+    "balcony", "terrace", "patio", "courtyard", "garden",
+    "swimming_pool", "fireplace", "chimney",
+    "column", "pillar", "arch", "dome", "spire", "vault", "beam",
+    "facade", "entrance", "hallway", "corridor",
+    "living_room", "kitchen", "bedroom", "bathroom", "dining_room",
+    "study", "home_office", "workshop", "garage", "basement", "attic",
+    "furniture", "sofa", "table", "chair", "bed", "shelf", "cabinet", "lamp",
+    "rug", "artwork", "plants", "mirror",
+    "urban", "rural", "suburban", "cityscape"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "label": "Travel & Vacation",
+  "specialRules": [
+    "Analyze ALL frames together to describe the whole trip, not individual frames.",
+    "Focus on destinations, scenery, landmarks, travel activities and modes of transport that are clearly visible.",
+    "Tag the type of scenery (beach, mountains, city, desert) and any recognizable architecture or landmarks.",
+    "Identify travel activities (hiking, sightseeing, diving) and transport (plane, boat, car) when clearly shown.",
+    "Include people only when they are part of the travel scene; prioritize place and activity over generic person tags.",
+    "Avoid generic tags when a more specific location or activity fits better."
+  ],
+  "genres": [
+    "Travel", "Vlog", "Adventure", "Sightseeing", "Road Trip", "Beach Holiday",
+    "City Trip", "Hiking", "Cruise", "Backpacking", "Cultural", "Safari",
+    "Winter Holiday", "Camping", "Nature", "Documentary"
+  ],
+  "allowedTags": [
+    "beach", "ocean", "sea", "coast", "cliff", "bay", "lagoon", "sandbank", "coral_reef",
+    "mountain", "mountain_range", "hill", "valley", "canyon", "gorge", "plateau", "volcano",
+    "forest", "jungle", "rainforest", "woodland", "meadow", "field", "vineyard", "rice_terrace",
+    "lake", "river", "stream", "waterfall", "hot_spring", "geyser", "glacier", "iceberg", "fjord",
+    "desert", "sand_dunes", "oasis", "savanna", "wetland", "swamp", "cave", "grotto",
+    "island", "peninsula", "archipelago", "tropical", "palm_trees", "snowy_landscape",
+    "city", "town", "village", "old_town", "skyline", "downtown", "suburb", "port_city",
+    "street", "alley", "cobblestone_street", "plaza", "square", "boulevard", "promenade",
+    "landmark", "monument", "statue", "fountain", "arch", "bridge", "tower", "skyscraper",
+    "castle", "palace", "fortress", "ruins", "temple", "shrine", "pagoda", "mosque",
+    "church", "cathedral", "chapel", "basilica", "museum", "gallery", "theater", "amphitheater",
+    "market", "bazaar", "night_market", "harbor", "marina", "pier", "lighthouse", "windmill",
+    "hotel", "resort", "hostel", "guesthouse", "villa", "bungalow", "cabin", "lodge",
+    "swimming_pool", "spa", "rooftop_bar", "beach_bar", "restaurant_terrace",
+    "cruise_ship", "ferry", "boat", "yacht", "sailboat", "kayak", "canoe", "gondola", "jet_ski",
+    "airplane", "airport", "helicopter", "hot_air_balloon", "cable_car", "gondola_lift",
+    "train", "railway", "train_station", "tram", "subway", "bus", "coach", "taxi",
+    "rental_car", "campervan", "rv", "motorcycle", "scooter", "bicycle", "tuk_tuk", "rickshaw",
+    "road_trip", "highway", "mountain_pass", "coastal_road", "dirt_road", "gravel_road",
+    "hiking", "trekking", "backpacking", "mountaineering", "rock_climbing", "camping", "tent",
+    "sightseeing", "guided_tour", "city_walk", "boat_tour", "safari_drive", "wildlife_watching",
+    "snorkeling", "scuba_diving", "surfing", "paddleboarding", "kitesurfing", "windsurfing",
+    "skiing", "snowboarding", "sledding", "ice_skating", "zip_lining", "paragliding", "bungee_jump",
+    "swimming", "sunbathing", "picnic", "boat_ride", "horse_riding", "camel_ride", "elephant_ride",
+    "backpack", "suitcase", "luggage", "map", "compass", "passport", "camera", "binoculars",
+    "scenic_view", "viewpoint", "panorama", "sunrise", "sunset", "starry_sky", "northern_lights",
+    "tourist", "traveler", "tour_guide", "local", "street_performer", "vendor",
+    "local_culture", "traditional_costume", "festival", "parade", "ceremony", "street_food",
+    "souvenir", "handicraft", "postcard", "flag", "signpost", "border_crossing"
+  ]
+}

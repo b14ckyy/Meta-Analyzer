@@ -1,0 +1,37 @@
+{
+  "label": "Pets & Animals",
+  "specialRules": [
+    "Focus on the animal(s): species and breed if clearly identifiable, plus what they are doing and where.",
+    "Tag the animal type, the action or pose (playing, sleeping, eating, running) and the setting (home, park, yard).",
+    "Tag accessories, toys and objects the animal interacts with when clearly visible.",
+    "Include people (owner, groomer, vet) only when they are part of the scene.",
+    "Avoid a generic tag when a more specific animal or behavior clearly fits."
+  ],
+  "allowedTags": [
+    "dog", "cat", "bird", "fish", "rabbit", "hamster", "guinea_pig", "mouse", "rat",
+    "turtle", "tortoise", "lizard", "snake", "frog", "spider", "insect",
+    "horse", "cow", "sheep", "pig", "chicken", "duck", "goose", "goat",
+    "deer", "squirrel", "hedgehog", "fox", "wolf", "bear", "lion", "tiger",
+    "elephant", "giraffe", "zebra", "monkey", "panda", "koala", "kangaroo",
+    "penguin", "seal", "dolphin", "whale", "shark", "octopus", "crab", "snail",
+    "butterfly", "bee", "ant",
+    "puppy", "kitten", "adult_dog", "adult_cat",
+    "small_dog", "large_dog", "long_hair_cat", "short_hair_cat",
+    "fluffy", "furry", "spotted", "striped", "solid_color",
+    "running", "walking", "jumping", "playing", "sleeping", "resting",
+    "eating", "drinking", "swimming", "flying", "climbing", "digging",
+    "chasing", "hunting", "grooming", "licking", "scratching", "biting",
+    "barking", "meowing", "purring", "hissing", "growling",
+    "wagging_tail", "tail_up", "ears_up", "ears_down", "yawning", "stretching", "rolling",
+    "sitting", "lying", "standing", "begging", "shaking",
+    "wet", "dirty", "muddy",
+    "collar", "leash", "harness", "tag", "bell", "bow", "ribbon",
+    "sweater", "coat", "hat", "costume",
+    "toy", "ball", "rope", "bone",
+    "scratching_post", "cat_tree", "cage", "aquarium", "terrarium",
+    "bowl", "pet_food", "pet_bed", "blanket", "basket", "carrier",
+    "vet", "groomer",
+    "park", "garden", "yard", "farm", "barn", "stable",
+    "home", "living_room", "kitchen", "balcony"
+  ]
+}

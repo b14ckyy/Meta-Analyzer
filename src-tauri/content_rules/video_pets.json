@@ -1,0 +1,39 @@
+{
+  "label": "Pets & Animals",
+  "specialRules": [
+    "Analyze ALL frames together to describe the animals and what they are doing, not individual frames.",
+    "Focus on the pet or animal, its species and breed if clear, plus the activity and setting.",
+    "Tag the animal type, the action (playing, eating, training, sleeping) and the setting (home, park, yard) when clearly shown.",
+    "Tag toys, accessories and other objects the animal interacts with when relevant.",
+    "Include people (owners, trainers) only when they are part of the scene.",
+    "Avoid generic tags when a more specific animal or behavior fits better."
+  ],
+  "genres": [
+    "Pets", "Dogs", "Cats", "Funny Animals", "Training", "Rescue",
+    "Aquarium", "Birds", "Small Pets", "Wildlife", "Farm Animals", "Grooming",
+    "Playtime", "Reptiles", "Cute", "Vlog"
+  ],
+  "allowedTags": [
+    "dog", "puppy", "cat", "kitten", "pet", "animal", "rabbit", "bunny", "hamster", "guinea_pig",
+    "ferret", "hedgehog", "rat", "mouse", "chinchilla", "gerbil",
+    "bird", "parrot", "parakeet", "cockatiel", "canary", "finch", "chicken", "duck", "goose",
+    "fish", "goldfish", "betta_fish", "tropical_fish", "aquarium", "fish_tank", "turtle", "tortoise",
+    "lizard", "gecko", "iguana", "snake", "frog", "reptile", "amphibian",
+    "horse", "pony", "cow", "goat", "sheep", "pig", "donkey", "chicken", "farm_animal",
+    "labrador", "golden_retriever", "german_shepherd", "bulldog", "poodle", "husky", "chihuahua",
+    "dachshund", "beagle", "corgi", "pug", "terrier", "border_collie", "shiba_inu",
+    "tabby_cat", "black_cat", "persian_cat", "siamese_cat", "maine_coon",
+    "playing", "running", "jumping", "fetching", "chasing", "wrestling", "chewing", "digging",
+    "eating", "drinking", "feeding", "begging", "licking", "grooming", "washing", "bathing",
+    "sleeping", "napping", "cuddling", "yawning", "stretching", "purring", "wagging_tail",
+    "barking", "meowing", "howling", "chirping", "swimming", "rolling", "scratching",
+    "training", "obedience", "tricks", "sit", "shake_paw", "roll_over", "agility", "fetch",
+    "walking", "on_leash", "at_the_vet", "rescue", "adoption", "shelter",
+    "toy", "chew_toy", "ball", "frisbee", "rope_toy", "scratching_post", "cat_tree", "laser_pointer",
+    "leash", "collar", "harness", "pet_bed", "kennel", "crate", "cage", "litter_box", "food_bowl",
+    "home", "living_room", "couch", "backyard", "garden", "park", "dog_park", "beach", "field",
+    "farm", "barn", "stable", "pet_store", "grooming_salon",
+    "owner", "trainer", "groomer", "veterinarian", "child_with_pet", "holding_pet",
+    "cute", "funny", "playful", "sleepy", "curious", "excited", "close_up_animal", "fluffy"
+  ]
+}

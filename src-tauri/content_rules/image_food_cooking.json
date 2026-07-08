@@ -1,0 +1,38 @@
+{
+  "label": "Food & Cooking",
+  "specialRules": [
+    "Focus on clearly visible food, ingredients, dishes, drinks and the cooking or dining setting.",
+    "Only tag a specific dish when it is easily and unambiguously recognizable (pizza, burger, sushi, pasta, kebab, taco, steak).",
+    "Tag cooking actions, cookware and the food's state (grilled, fried, fresh, raw) when clear.",
+    "Prioritize general food categories over obscure or hard-to-identify recipes."
+  ],
+  "allowedTags": [
+    "pizza", "pasta", "burger", "kebab", "taco", "burrito", "sushi", "steak",
+    "chicken", "fish", "meat", "seafood", "shrimp", "crab", "lobster", "mussel", "oyster",
+    "squid", "octopus", "egg", "bacon", "sausage", "ham",
+    "vegetable", "fruit", "bread", "cheese", "rice", "noodle", "soup", "salad",
+    "sandwich", "wrap", "curry", "stew",
+    "apple", "banana", "orange", "strawberry", "grape", "watermelon", "pineapple",
+    "mango", "avocado", "tomato", "potato", "carrot", "onion", "garlic", "pepper",
+    "chili", "lettuce", "cabbage", "cucumber", "broccoli", "spinach", "mushroom",
+    "butter", "oil", "salt", "spice", "herb", "sauce", "dressing", "dip",
+    "topping", "filling", "crust", "dough", "batter", "flour", "sugar", "honey",
+    "jam", "cream", "yogurt",
+    "bun", "baguette", "croissant", "muffin", "pancake", "waffle", "cereal", "oatmeal",
+    "ice_cream", "cake", "cookie", "chocolate", "candy", "dessert",
+    "coffee", "tea", "juice", "milk", "soda", "smoothie",
+    "beer", "wine", "champagne", "cocktail", "whiskey", "vodka", "gin", "sake",
+    "roast", "grill", "fry", "bake", "boil", "steam",
+    "chop", "stir", "mix", "knead", "slice", "peel", "cook",
+    "oven", "stove", "pan", "pot", "wok", "knife", "cutting_board",
+    "plate", "bowl", "glass", "cup", "mug", "bottle", "jar", "tray", "platter",
+    "chopstick", "napkin", "tablecloth",
+    "kitchen", "restaurant", "cafe", "bar", "food_truck", "market", "supermarket",
+    "picnic", "barbecue", "dining_table",
+    "breakfast", "lunch", "dinner", "snack",
+    "hot", "cold", "fresh", "cooked", "raw",
+    "grilled", "fried", "baked", "boiled", "steamed", "roasted",
+    "spicy", "sweet", "sour", "savory",
+    "healthy", "fast_food", "street_food", "homemade", "gourmet"
+  ]
+}

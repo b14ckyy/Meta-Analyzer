@@ -1,0 +1,43 @@
+{
+  "label": "Sports & Fitness",
+  "specialRules": [
+    "Focus on the sport or fitness activity, the athletic movement, the equipment and the sportswear.",
+    "Tag the specific sport (football, basketball, tennis, swimming, running, cycling, skiing) and related gear when clearly visible.",
+    "Tag the venue (stadium, court, gym, track) and the action or moment (jumping, shooting, celebrating).",
+    "Prioritize dynamic actions and sport-specific elements over generic person tags."
+  ],
+  "allowedTags": [
+    "football", "soccer", "basketball", "tennis", "golf", "baseball", "cricket",
+    "rugby", "hockey", "volleyball", "badminton", "table_tennis",
+    "swimming", "diving", "water_polo", "surfing", "sailing", "rowing",
+    "kayaking", "canoeing", "rafting",
+    "running", "jogging", "sprinting", "marathon",
+    "cycling", "mountain_biking", "bmx",
+    "skiing", "snowboarding", "ice_skating", "figure_skating",
+    "boxing", "kickboxing", "muay_thai", "karate", "taekwondo", "judo",
+    "wrestling", "mma",
+    "yoga", "pilates", "fitness", "gym_workout",
+    "weightlifting", "powerlifting", "bodybuilding", "crossfit", "calisthenics",
+    "stretching", "warming_up", "training", "exercising", "competing",
+    "winning", "celebrating", "posing", "flexing",
+    "jumping", "throwing", "catching", "kicking", "hitting",
+    "swinging", "shooting", "blocking", "defending", "attacking", "racing",
+    "athlete", "coach", "referee", "spectator", "crowd",
+    "stadium", "arena", "field", "court", "pitch", "track", "pool",
+    "gym", "fitness_center",
+    "dumbbell", "barbell", "kettlebell", "resistance_band",
+    "yoga_mat", "treadmill", "exercise_bike", "rowing_machine", "bench", "rack",
+    "helmet", "gloves", "pads", "shin_guards", "wristband", "headband",
+    "jersey", "shorts", "leggings", "tracksuit",
+    "swimsuit", "wetsuit", "ski_suit", "cycling_jersey",
+    "running_shoes", "cleats", "sneakers",
+    "racket", "bat", "club", "stick", "puck",
+    "ball", "tennis_ball", "golf_ball", "shuttlecock",
+    "skis", "snowboard", "skateboard", "bicycle", "motorcycle",
+    "racing_car", "formula_1", "rally", "karting", "motocross",
+    "goggles", "fitness_tracker", "stopwatch", "whistle", "starting_block",
+    "goal", "net", "hoop", "ring", "goalpost", "hurdle", "cone", "mat",
+    "protein_shake", "water_bottle", "towel", "sweat",
+    "artificial_turf", "natural_grass"
+  ]
+}

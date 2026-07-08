@@ -1,0 +1,35 @@
+{
+  "label": "Fashion & Style",
+  "specialRules": [
+    "Focus on the clothing, outfit, accessories and overall style/aesthetic.",
+    "Tag the garments, their materials, colours and patterns, plus shoes and accessories that are clearly visible.",
+    "Tag the fashion style or dress code (casual, formal, streetwear, vintage) when it is visually clear.",
+    "Keep it to clearly visible items; avoid overly niche fashion terms."
+  ],
+  "allowedTags": [
+    "man", "woman", "male", "female", "boy", "girl",
+    "shirt", "t_shirt", "polo_shirt", "button_up", "blouse", "sweater",
+    "hoodie", "cardigan", "vest", "tank_top", "crop_top", "turtleneck",
+    "jacket", "coat", "blazer", "suit", "tuxedo",
+    "dress", "gown", "skirt", "mini_skirt", "maxi_skirt",
+    "pants", "jeans", "chinos", "cargo_pants", "joggers", "tracksuit",
+    "shorts", "leggings", "swimsuit", "bikini", "lingerie",
+    "pajamas", "robe", "uniform", "sportswear",
+    "streetwear", "athleisure", "boho", "punk", "goth", "preppy", "hipster", "grunge",
+    "minimalist", "maximalist", "vintage", "retro", "classic", "modern",
+    "casual", "formal", "elegant", "sporty", "stylish", "trendy",
+    "business", "business_casual", "evening_wear", "cocktail",
+    "beach", "resort", "festival", "party", "wedding",
+    "black", "white", "red", "blue", "green", "yellow", "pink",
+    "purple", "brown", "gray", "beige", "orange", "gold", "silver",
+    "patterned", "striped", "checked", "floral", "plain", "solid", "monochrome", "colorful",
+    "denim", "leather", "cotton", "wool", "silk", "synthetic",
+    "hat", "cap", "beanie", "bucket_hat", "fedora", "beret",
+    "scarf", "gloves", "sunglasses", "glasses", "watch",
+    "jewelry", "necklace", "bracelet", "earrings", "ring",
+    "belt", "bag", "handbag", "backpack", "briefcase", "tote_bag", "crossbody_bag",
+    "shoes", "sneakers", "boots", "heels", "flats", "sandals", "loafers",
+    "outfit", "clothing", "accessories",
+    "oversized", "fitted", "layered", "dressed_up", "well_dressed"
+  ]
+}

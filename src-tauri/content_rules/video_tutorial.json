@@ -1,0 +1,39 @@
+{
+  "label": "Tutorial & How-To",
+  "specialRules": [
+    "Analyze ALL frames together to describe what is being taught or demonstrated, not individual frames.",
+    "Focus on the subject of the tutorial, the tools or materials used and the steps or techniques that are clearly visible.",
+    "Tag the type of tutorial (diy, craft, software, repair, cooking) and the setting (workshop, desk, studio) when clearly shown.",
+    "Tag tools, materials and any on-screen text, diagrams or screen recordings when present.",
+    "Include the instructor or demonstrating hands as part of the scene when visible.",
+    "Avoid generic tags when a more specific craft, tool or technique fits better."
+  ],
+  "genres": [
+    "Tutorial", "How-To", "DIY", "Educational", "Craft", "Guide",
+    "Lesson", "Repair", "Software Tutorial", "Woodworking", "Home Improvement", "Life Hack",
+    "Art Tutorial", "Beauty Tutorial", "Demonstration", "Workshop"
+  ],
+  "allowedTags": [
+    "tutorial", "how_to", "guide", "lesson", "demonstration", "step_by_step", "walkthrough",
+    "instructions", "explainer", "diy", "craft", "handmade", "project", "life_hack", "tips",
+    "instructor", "teacher", "presenter", "demonstrator", "hands", "close_up_hands",
+    "woodworking", "carpentry", "sawing", "drilling", "sanding", "gluing", "measuring", "cutting",
+    "painting", "priming", "varnishing", "staining", "assembling", "screwing", "hammering",
+    "sewing", "stitching", "knitting", "crochet", "embroidery", "quilting", "weaving",
+    "drawing", "sketching", "watercolor", "acrylic_painting", "calligraphy", "lettering", "origami",
+    "pottery", "sculpting", "clay_modeling", "candle_making", "soap_making", "jewelry_making",
+    "gardening", "planting", "potting", "pruning", "propagation",
+    "home_improvement", "renovation", "tiling", "plumbing", "wiring", "installation", "mounting",
+    "repair", "fixing", "troubleshooting", "disassembly", "reassembly", "maintenance",
+    "software", "app", "screen_recording", "coding", "programming", "spreadsheet", "photo_editing",
+    "video_editing", "user_interface", "settings_menu", "keyboard_shortcut", "on_screen_cursor",
+    "makeup", "hairstyling", "skincare", "nail_art", "beauty_routine",
+    "recipe", "cooking_step", "baking_step", "prep",
+    "tool", "hammer", "screwdriver", "drill", "saw", "wrench", "pliers", "scissors", "knife",
+    "brush", "glue", "tape", "ruler", "clamp", "sewing_machine", "sandpaper", "level",
+    "material", "wood", "fabric", "yarn", "paper", "clay", "paint", "metal", "plastic", "cardboard",
+    "workshop", "workbench", "garage", "desk", "studio", "craft_table", "kitchen", "classroom",
+    "before_and_after", "finished_project", "diagram", "blueprint", "chart", "on_screen_text",
+    "labeled_steps", "numbered_list", "close_up_detail", "overhead_shot"
+  ]
+}

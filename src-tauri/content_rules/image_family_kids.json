@@ -1,0 +1,28 @@
+{
+  "label": "Family & Kids",
+  "specialRules": [
+    "Focus on the family members, children and the interaction or activity between them.",
+    "Tag the people and their relationships (mother, father, son, daughter, siblings, grandparents), the activity and the setting.",
+    "Tag toys, objects and everyday items the children interact with when clearly visible.",
+    "Prioritize moments of togetherness, play and care; describe only what is clearly visible."
+  ],
+  "allowedTags": [
+    "mother", "father", "son", "daughter", "brother", "sister",
+    "grandmother", "grandfather", "parents", "siblings", "family",
+    "child", "baby", "toddler", "kid", "teenager",
+    "baby_boy", "baby_girl", "young_boy", "young_girl",
+    "smiling", "laughing", "crying", "playful", "caring",
+    "hugging", "kissing", "holding_hands", "carrying", "piggyback",
+    "playing", "reading", "storytime", "eating", "drinking",
+    "cooking_together", "baking", "cleaning", "shopping", "traveling",
+    "toy", "ball", "doll", "teddy_bear", "building_blocks", "book", "game", "puzzle",
+    "bicycle", "scooter", "skateboard", "stroller", "high_chair", "crib",
+    "swing", "slide", "sandbox", "seesaw", "water_gun", "bubbles",
+    "balloon", "gift", "present", "cake", "candle",
+    "birthday", "christmas", "easter", "halloween",
+    "living_room", "kitchen", "bedroom", "playroom", "nursery",
+    "garden", "backyard", "park", "playground", "beach", "school", "classroom",
+    "home", "car",
+    "bath_time", "bedtime", "nap"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "label": "Holidays & Events",
+  "specialRules": [
+    "Focus on the type of holiday or event, its decorations, food and the overall festive setting.",
+    "Tag the occasion (christmas, halloween, wedding), the decorations and any celebration activities that are clearly visible.",
+    "Include people only when they are clearly part of the festive scene (celebrating, dancing, eating together, posing in group photos).",
+    "Avoid generic person tags unless they meaningfully contribute to the event atmosphere."
+  ],
+  "allowedTags": [
+    "christmas", "new_year", "easter", "halloween", "thanksgiving", "valentine",
+    "birthday", "wedding", "anniversary", "graduation", "baby_shower", "reunion",
+    "party", "festival", "carnival", "concert", "parade",
+    "christmas_tree", "christmas_lights", "santa", "snowman", "reindeer", "elf",
+    "gingerbread", "candy_cane", "present", "gift", "stocking", "wreath", "bauble",
+    "tinsel", "holly", "mistletoe", "advent_wreath", "nativity",
+    "pumpkin", "jack_o_lantern", "ghost", "witch", "skeleton", "bat", "spider_web",
+    "tombstone", "haunted_house", "trick_or_treat", "costume", "mask",
+    "easter_egg", "easter_bunny", "chocolate", "basket",
+    "turkey", "ham", "pie", "cake", "feast", "buffet",
+    "candle", "balloon", "streamer", "confetti", "disco_ball", "banner", "garland",
+    "dance_floor", "dj", "stage", "microphone", "live_band",
+    "fireworks", "sparkler", "bonfire", "campfire", "lantern",
+    "tent", "beach_party", "pool_party", "garden_party",
+    "barbecue", "grill", "picnic",
+    "family_gathering", "dinner_table",
+    "champagne", "wine", "beer", "cocktail", "punch",
+    "toast", "cheers", "kiss", "hug",
+    "dancing", "singing", "laughing", "celebrating", "cake_cutting", "gift_giving",
+    "living_room", "dining_room", "garden", "backyard",
+    "church", "temple", "stadium", "concert_hall", "club", "ballroom", "hotel",
+    "decorated", "festive", "golden_lights", "candlelight", "string_lights"
+  ]
+}

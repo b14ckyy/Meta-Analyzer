@@ -1,0 +1,29 @@
+{
+  "label": "Business & Work",
+  "specialRules": [
+    "Focus on the professional setting, activity, people's roles and the tools or documents visible.",
+    "Tag the type of workplace (office, workshop, studio, store) and the work activity (meeting, presentation, typing).",
+    "Tag visible business objects (laptop, documents, whiteboard) and attire (suit, uniform) when clear.",
+    "Avoid generic tags when a more specific role, tool or setting fits better."
+  ],
+  "allowedTags": [
+    "office", "open_plan_office", "home_office", "coworking_space", "meeting_room", "boardroom",
+    "conference_room", "reception", "lobby", "cubicle", "workspace", "workstation", "desk",
+    "workshop", "factory", "warehouse", "studio", "laboratory", "store", "shop", "showroom",
+    "construction_site", "job_site", "field_work",
+    "meeting", "team_meeting", "presentation", "conference", "seminar", "workshop_session",
+    "interview", "negotiation", "brainstorming", "video_call", "webinar", "training",
+    "typing", "writing", "reading", "planning", "analyzing", "designing", "coding",
+    "phone_call", "handshake", "signing", "networking", "public_speaking", "teaching",
+    "businessman", "businesswoman", "manager", "executive", "employee", "colleague", "team",
+    "client", "customer", "entrepreneur", "freelancer", "engineer", "designer", "developer",
+    "consultant", "accountant", "salesperson", "receptionist", "worker", "staff",
+    "laptop", "computer", "monitor", "keyboard", "smartphone", "tablet", "printer", "projector",
+    "documents", "paperwork", "contract", "report", "invoice", "notebook", "planner", "calendar",
+    "whiteboard", "flipchart", "sticky_notes", "charts", "graphs", "spreadsheet", "presentation_slide",
+    "pen", "coffee_cup", "briefcase", "business_card", "id_badge", "headset",
+    "suit", "blazer", "formal_wear", "business_casual", "uniform", "lanyard", "name_tag",
+    "teamwork", "collaboration", "leadership", "deadline", "productivity", "focus", "busy",
+    "professional", "corporate", "formal", "modern_office", "startup", "success", "growth"
+  ]
+}

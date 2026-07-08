@@ -1,0 +1,30 @@
+{
+  "label": "Art & Culture",
+  "specialRules": [
+    "Focus on the art form, cultural object, artistic style and the cultural setting or activity.",
+    "Tag the type of art (painting, sculpture, mural, installation), its style and subject when clearly visible.",
+    "Tag cultural venues and events (museum, gallery, theater, festival, religious site) and the people involved (artist, performer, visitor).",
+    "Prioritize recognizable artistic and cultural elements over abstract interpretations."
+  ],
+  "allowedTags": [
+    "painting", "sculpture", "statue", "mural", "graffiti", "street_art",
+    "installation", "photography", "drawing", "print", "collage",
+    "ceramic", "pottery", "textile", "tapestry", "mosaic", "fresco",
+    "design", "architecture", "calligraphy",
+    "theater", "concert", "opera", "ballet", "dance", "film", "cinema",
+    "festival", "carnival", "parade",
+    "market", "bazaar",
+    "museum", "gallery", "library", "exhibition", "vernissage",
+    "church", "cathedral", "temple", "mosque", "pagoda", "shrine",
+    "castle", "palace", "ruins", "historical_site",
+    "monument", "landmark", "public_art",
+    "performance", "show", "opening",
+    "audience", "visitor", "tourist",
+    "artist", "painter", "sculptor", "photographer", "dancer", "actor",
+    "musician", "writer", "craftsman",
+    "abstract", "realistic", "modern", "classical", "impressionist", "surreal",
+    "minimalist", "maximalist", "figurative", "contemporary", "folk", "religious",
+    "portrait", "landscape", "still_life", "nude", "mythological",
+    "canvas", "frame", "pedestal", "brushstroke", "monochrome"
+  ]
+}

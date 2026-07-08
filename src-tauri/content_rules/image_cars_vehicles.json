@@ -1,0 +1,31 @@
+{
+  "label": "Cars & Vehicles",
+  "specialRules": [
+    "Focus on the vehicle(s): type, body style, purpose and clearly visible details.",
+    "Tag the vehicle type (suv, sports car, truck, motorcycle), its drivetrain or fuel and the setting (road, garage, racetrack) when clear.",
+    "Tag the vehicle's condition and colour when clearly visible.",
+    "Keep to clearly visible vehicles; avoid specific models unless very iconic and recognizable."
+  ],
+  "allowedTags": [
+    "car", "truck", "bus", "van", "suv", "sedan", "hatchback", "coupe",
+    "convertible", "pickup", "minivan", "station_wagon",
+    "sports_car", "luxury_car", "electric_car", "hybrid", "muscle_car", "classic_car",
+    "motorcycle", "scooter", "moped", "bicycle", "e_bike", "quad_bike",
+    "boat", "yacht", "ship", "ferry", "cruise_ship", "jet_ski",
+    "airplane", "helicopter", "train", "tram", "subway",
+    "taxi", "police_car", "ambulance", "fire_truck", "garbage_truck",
+    "construction_vehicle", "excavator", "bulldozer", "crane", "tractor",
+    "racing_car", "formula_1", "rally_car", "kart", "off_road_vehicle", "4x4",
+    "all_wheel_drive", "manual", "automatic",
+    "electric", "diesel", "petrol", "charging", "fuel",
+    "engine", "wheels", "rims", "tires", "headlights", "spoiler", "interior", "dashboard",
+    "parking", "driving", "racing", "drifting", "transporting", "delivering", "commuting",
+    "family_car", "city_car", "commercial_vehicle", "cargo",
+    "highway", "road", "street", "bridge", "tunnel",
+    "parking_lot", "garage", "gas_station", "charging_station", "racetrack",
+    "traffic", "traffic_jam", "accident",
+    "new", "old", "vintage", "classic", "modern",
+    "rusty", "shiny", "dirty", "modified", "tuned",
+    "red", "blue", "green", "yellow", "black", "white", "silver", "gray", "orange"
+  ]
+}

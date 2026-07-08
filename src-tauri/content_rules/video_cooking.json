@@ -1,0 +1,41 @@
+{
+  "label": "Food & Cooking",
+  "specialRules": [
+    "Analyze ALL frames together to describe the dish and the cooking process, not individual frames.",
+    "Focus on the food, ingredients, cooking method and the setting (kitchen, restaurant, outdoor) that are clearly visible.",
+    "Tag the dish type, key ingredients and the technique (chopping, frying, baking, grilling) when clearly shown.",
+    "Tag kitchen tools, appliances and plating/serving when visible.",
+    "Include the cook and any diners as part of the scene when present.",
+    "Avoid generic tags when a more specific dish, ingredient or technique fits better."
+  ],
+  "genres": [
+    "Cooking", "Recipe", "Baking", "Restaurant", "Street Food", "Food Review",
+    "Mukbang", "BBQ", "Meal Prep", "Dessert", "Vegan", "Grilling",
+    "Fine Dining", "Home Cooking", "Pastry", "Tutorial"
+  ],
+  "allowedTags": [
+    "cooking", "baking", "grilling", "roasting", "frying", "deep_frying", "sauteing", "boiling",
+    "steaming", "simmering", "searing", "smoking", "barbecue", "sous_vide", "meal_prep",
+    "chopping", "slicing", "dicing", "mincing", "peeling", "grating", "kneading", "mixing",
+    "whisking", "stirring", "folding", "rolling_dough", "marinating", "seasoning", "garnishing",
+    "plating", "serving", "tasting", "eating", "mukbang", "food_styling",
+    "meat", "beef", "steak", "chicken", "pork", "lamb", "bacon", "sausage", "fish", "salmon",
+    "shrimp", "seafood", "eggs", "cheese", "butter", "cream", "milk", "yogurt",
+    "vegetables", "onion", "garlic", "tomato", "potato", "carrot", "pepper", "mushroom",
+    "broccoli", "spinach", "lettuce", "avocado", "corn", "beans", "peas",
+    "fruit", "apple", "banana", "strawberry", "lemon", "lime", "orange", "berries",
+    "rice", "pasta", "noodles", "bread", "dough", "flour", "sugar", "chocolate", "spices", "herbs",
+    "pizza", "burger", "sandwich", "taco", "sushi", "curry", "soup", "salad", "stew", "stir_fry",
+    "pancakes", "waffles", "cake", "cupcake", "cookies", "pie", "pastry", "croissant", "donut",
+    "ice_cream", "dessert", "smoothie", "cocktail", "coffee", "tea",
+    "knife", "cutting_board", "frying_pan", "pot", "wok", "skillet", "baking_tray", "mixing_bowl",
+    "whisk", "spatula", "wooden_spoon", "rolling_pin", "measuring_cup", "grater", "blender",
+    "oven", "stove", "gas_burner", "grill", "bbq_grill", "microwave", "air_fryer", "mixer",
+    "food_processor", "deep_fryer", "toaster", "kettle",
+    "kitchen", "home_kitchen", "professional_kitchen", "restaurant", "food_truck", "street_stall",
+    "market_stall", "outdoor_kitchen", "backyard", "dining_table", "counter", "prep_station",
+    "chef", "cook", "baker", "home_cook", "waiter", "diner", "guest",
+    "plated_dish", "close_up_food", "steam", "sizzling", "dripping_sauce", "melting_cheese",
+    "fresh_ingredients", "raw_ingredients", "finished_dish", "recipe_card", "on_screen_text"
+  ]
+}

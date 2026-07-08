@@ -1,0 +1,41 @@
+{
+  "label": "Music & Concerts",
+  "specialRules": [
+    "Analyze ALL frames together to describe the performance and setting, not individual frames.",
+    "Focus on the type of performance, the instruments, the performers, the stage and the crowd that are clearly visible.",
+    "Tag the venue (concert hall, club, festival stage, studio) and the musical style if it is visually clear.",
+    "Tag instruments, stage equipment and lighting when clearly shown.",
+    "Include the audience and crowd as part of the scene when present.",
+    "Avoid generic tags when a more specific instrument or performance type fits better."
+  ],
+  "genres": [
+    "Concert", "Live Performance", "Music Video", "DJ Set", "Festival", "Acoustic",
+    "Rock", "Pop", "Electronic", "Classical", "Hip Hop", "Jazz",
+    "Metal", "Karaoke", "Orchestra", "Band Rehearsal"
+  ],
+  "allowedTags": [
+    "concert", "live_performance", "gig", "show", "music_video", "dj_set", "festival",
+    "open_air_festival", "recital", "rehearsal", "jam_session", "karaoke", "busking",
+    "singer", "vocalist", "frontman", "backing_vocalist", "rapper", "musician", "performer",
+    "band", "duo", "trio", "orchestra", "choir", "ensemble", "quartet", "solo_artist",
+    "dj", "producer", "conductor", "instrumentalist", "session_musician",
+    "guitar", "electric_guitar", "acoustic_guitar", "bass_guitar", "drums", "drum_kit",
+    "keyboard", "piano", "grand_piano", "synthesizer", "organ", "accordion",
+    "violin", "cello", "double_bass", "viola", "harp", "flute", "clarinet", "oboe",
+    "saxophone", "trumpet", "trombone", "tuba", "french_horn", "harmonica",
+    "turntables", "mixer", "dj_controller", "sampler", "drum_machine", "microphone", "mic_stand",
+    "amplifier", "speaker_stack", "monitor_speaker", "guitar_pedal", "cables",
+    "stage", "main_stage", "festival_stage", "concert_hall", "arena", "stadium", "theater",
+    "nightclub", "club", "bar", "pub", "recording_studio", "rehearsal_room", "opera_house",
+    "backstage", "green_room", "sound_booth", "mixing_desk",
+    "singing", "playing_guitar", "playing_drums", "playing_piano", "dj_mixing", "conducting",
+    "dancing", "headbanging", "clapping", "crowd_surfing", "moshpit", "jumping",
+    "audience", "crowd", "fans", "spectators", "festival_crowd", "raised_hands", "phone_lights",
+    "stage_lights", "spotlight", "laser_show", "strobe_lights", "led_screen", "video_wall",
+    "fog", "smoke", "pyrotechnics", "confetti", "fireworks", "light_show", "neon_lights",
+    "microphone_closeup", "hands_on_instrument", "sheet_music", "setlist",
+    "acoustic", "unplugged", "orchestral", "electronic", "rock", "pop", "metal", "jazz",
+    "hip_hop", "classical", "folk", "reggae", "country", "punk", "rnb", "edm",
+    "energetic", "emotional", "dramatic", "intimate", "loud", "crowd_energy", "night_show"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "label": "Gaming",
+  "specialRules": [
+    "Analyze ALL frames together to describe the game and the type of video, not individual frames.",
+    "Focus on the on-screen gameplay, the game genre, the setting and any interface elements that are clearly visible.",
+    "Tag the game genre (fps, rpg, racing), on-screen elements (hud, health_bar, map) and the type of content (gameplay, walkthrough, esports) when clearly shown.",
+    "Tag a facecam, overlay or commentary presenter when present.",
+    "Identify a specific game title only when clearly recognizable; do not guess.",
+    "Avoid generic tags when a more specific genre or element fits better."
+  ],
+  "genres": [
+    "Gameplay", "Let's Play", "Walkthrough", "Esports", "Stream", "Review",
+    "Speedrun", "Tutorial", "Montage", "First Impressions", "Multiplayer", "Retro Gaming",
+    "Simulation", "Strategy", "Horror Gaming", "Mobile Gaming"
+  ],
+  "allowedTags": [
+    "gameplay", "gaming", "video_game", "lets_play", "walkthrough", "playthrough", "speedrun",
+    "livestream", "stream", "esports", "tournament", "match", "ranked_match", "montage", "highlights",
+    "fps", "first_person_shooter", "third_person", "rpg", "mmorpg", "moba", "battle_royale",
+    "racing_game", "sports_game", "fighting_game", "platformer", "puzzle_game", "strategy_game",
+    "rts", "simulation_game", "sandbox", "open_world", "survival_game", "horror_game", "adventure_game",
+    "shooter", "stealth", "roguelike", "card_game", "rhythm_game", "sports_sim",
+    "character", "avatar", "player_character", "npc", "boss", "enemy", "monster", "villain",
+    "team", "squad", "party", "guild", "clan",
+    "hud", "health_bar", "mana_bar", "minimap", "map", "inventory", "skill_tree", "menu",
+    "loadout", "crosshair", "kill_feed", "scoreboard", "leaderboard", "timer", "objective_marker",
+    "ammo_counter", "score", "level_indicator", "quest_log", "dialogue_box", "cutscene",
+    "combat", "shooting", "melee", "spellcasting", "driving", "jumping", "building", "crafting",
+    "exploration", "boss_fight", "pvp", "co_op", "multiplayer", "single_player",
+    "loot", "weapon", "gun", "sword", "shield", "armor", "vehicle", "power_up", "collectible",
+    "in_game_city", "dungeon", "battlefield", "arena", "racetrack", "spaceship", "fantasy_world",
+    "sci_fi_setting", "post_apocalyptic", "medieval_setting", "futuristic_setting",
+    "victory_screen", "game_over", "loading_screen", "title_screen", "respawn",
+    "facecam", "webcam_overlay", "streamer", "commentary", "reaction", "subscriber_alert",
+    "chat_overlay", "on_screen_text", "pixel_art", "3d_graphics", "cartoon_style", "realistic_graphics",
+    "console", "pc_gaming", "mobile_game", "handheld", "vr_gaming", "retro_game", "arcade"
+  ]
+}

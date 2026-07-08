@@ -1,0 +1,38 @@
+{
+  "label": "Family & Kids",
+  "specialRules": [
+    "Analyze ALL frames together to describe the family moment or activity, not individual frames.",
+    "Focus on the family activity, the occasion and the setting (home, park, vacation) that are clearly visible.",
+    "Tag the activity (playing, celebrating, everyday life), the setting and any milestone or occasion when clearly shown.",
+    "Keep tags wholesome and descriptive of ordinary family life; describe only what is clearly visible.",
+    "Tag toys, decorations and everyday objects when relevant.",
+    "Avoid generic tags when a more specific activity or occasion fits better."
+  ],
+  "genres": [
+    "Family", "Kids", "Home Video", "Vlog", "Playtime", "Milestone",
+    "Birthday", "Holiday", "School", "Vacation", "Newborn", "Everyday Life",
+    "Outdoor", "Celebration", "Educational", "Pets"
+  ],
+  "allowedTags": [
+    "family", "parents", "mother", "father", "children", "kids", "baby", "newborn", "toddler",
+    "boy", "girl", "siblings", "brother", "sister", "grandparents", "grandmother", "grandfather",
+    "aunt", "uncle", "cousins", "extended_family", "family_gathering",
+    "playing", "playtime", "games", "board_games", "building_blocks", "puzzle", "toys",
+    "drawing", "coloring", "crafts", "reading", "storytime", "singing", "dancing",
+    "running", "jumping", "hide_and_seek", "tag_game", "hopscotch", "trampoline",
+    "birthday", "birthday_party", "birthday_cake", "candles", "presents", "party_hats", "balloons",
+    "christmas", "easter", "halloween", "thanksgiving", "holiday", "holiday_dinner", "family_photo",
+    "first_steps", "first_words", "first_day_of_school", "graduation", "milestone", "recital",
+    "school", "classroom", "homework", "backpack", "school_bus", "field_trip",
+    "vacation", "road_trip", "beach_day", "camping", "picnic", "theme_park", "zoo", "aquarium",
+    "playground", "swing", "slide", "sandbox", "seesaw", "park", "backyard", "garden",
+    "home", "living_room", "kitchen", "bedroom", "bathtub", "bath_time", "bedtime",
+    "cooking_together", "baking_together", "family_dinner", "breakfast", "meal_time",
+    "gardening", "washing_car", "diy_project", "decorating",
+    "pet", "dog", "cat", "puppy", "kitten", "playing_with_pet",
+    "cuddling", "hugging", "laughing", "smiling", "kissing_cheek", "piggyback", "carrying_child",
+    "swimming", "pool", "sprinkler", "water_play", "snow", "sledding", "snowman", "bike_riding",
+    "stroller", "high_chair", "crib", "bicycle", "scooter", "kite", "ball",
+    "candid_moment", "everyday_life", "wholesome", "joyful", "cozy", "outdoor_fun", "indoor_play"
+  ]
+}

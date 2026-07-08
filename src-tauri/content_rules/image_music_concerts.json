@@ -1,0 +1,28 @@
+{
+  "label": "Music & Concerts",
+  "specialRules": [
+    "Focus on the concert or music scene: the venue, stage, instruments, performers and audience.",
+    "Tag the instruments, the performers (musician, singer, band, dj) and the stage/lighting effects when clearly visible.",
+    "Tag the crowd and audience actions (cheering, dancing, crowd surfing) when part of the scene.",
+    "Prioritize the overall concert or music setting over generic person tags."
+  ],
+  "allowedTags": [
+    "concert", "festival", "gig", "show", "performance", "recital",
+    "stage", "arena", "stadium", "club", "hall", "theater", "opera_house",
+    "venue", "backstage", "front_row", "mosh_pit",
+    "crowd", "audience", "fan",
+    "musician", "singer", "band", "dj", "conductor", "orchestra", "choir",
+    "guitarist", "drummer", "bassist", "pianist", "violinist", "saxophonist",
+    "microphone", "mic_stand",
+    "guitar", "electric_guitar", "acoustic_guitar", "bass_guitar",
+    "drums", "drum_kit", "piano", "keyboard", "synthesizer",
+    "violin", "cello", "saxophone", "trumpet", "flute", "harmonica", "accordion",
+    "dj_booth", "turntable", "mixer", "speakers", "amplifier",
+    "stage_lights", "spotlight", "laser", "strobe", "led_screen", "neon",
+    "fog", "smoke", "pyrotechnics", "fireworks", "confetti",
+    "banner", "poster", "ticket", "wristband", "merchandise", "vinyl",
+    "cheering", "clapping", "dancing", "singing_along",
+    "moshing", "crowd_surfing", "stage_diving", "encore", "standing_ovation",
+    "bowing", "waving", "raised_hands", "phone_lights"
+  ]
+}

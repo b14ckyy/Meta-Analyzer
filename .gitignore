@@ -1,0 +1,35 @@
+# Build output
+dist/
+target/
+release/
+
+# Generated schemas
+src-tauri/gen/schemas/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Rust
+**/*.rs.bk
+
+# Environment
+.env
+.env.local
+
+# Generated
+*-cred.json
+
+# Dependencies
+node_modules/
+
+# Optional add-on content packs are distributed separately and kept out of the
+# repo. Local pack files placed in the app's content_rules folder are not tracked.
+content-packs/local/
+

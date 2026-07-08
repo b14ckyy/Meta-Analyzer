@@ -1,0 +1,39 @@
+{
+  "specialRules": [
+    "This is the generalist catch-all category. Describe whatever is actually in the image across any subject.",
+    "Tag the main subject, the setting, notable objects, the people (if any) and the overall mood.",
+    "Stay broad and factual; prefer a clearly-visible general tag over a narrow guess.",
+    "Avoid a generic tag when a more specific and clearly-visible one fits better."
+  ],
+  "allowedTags": [
+    "man", "woman", "child", "baby", "toddler", "teenager", "adult", "senior", "person",
+    "group", "family", "couple", "crowd", "people", "male", "female", "boy", "girl",
+    "portrait", "selfie", "group_photo", "candid", "closeup", "full_body",
+    "standing", "sitting", "lying", "walking", "running", "jumping", "dancing", "posing",
+    "talking", "laughing", "smiling", "crying", "eating", "drinking", "reading", "writing",
+    "working", "playing", "cooking", "shopping", "traveling", "exercising", "celebrating",
+    "animal", "dog", "cat", "bird", "horse", "fish", "wildlife", "pet", "insect",
+    "nature", "landscape", "mountain", "hill", "forest", "tree", "plant", "flower", "grass",
+    "beach", "ocean", "sea", "lake", "river", "waterfall", "desert", "field", "garden", "park",
+    "sky", "sun", "cloud", "rainbow", "snow", "rain", "fog",
+    "city", "cityscape", "skyline", "street", "road", "bridge", "square", "alley",
+    "building", "house", "apartment", "skyscraper", "monument", "landmark", "ruins", "church",
+    "indoor", "outdoor", "room", "bedroom", "living_room", "kitchen", "bathroom", "office",
+    "restaurant", "cafe", "bar", "shop", "store", "market", "hotel", "gym", "school", "hospital",
+    "furniture", "table", "chair", "sofa", "bed", "shelf", "window", "door", "staircase",
+    "car", "bus", "train", "bicycle", "motorcycle", "boat", "airplane", "truck", "vehicle",
+    "food", "meal", "drink", "coffee", "fruit", "vegetable", "dessert", "snack",
+    "phone", "laptop", "computer", "camera", "book", "clock", "sign", "screen", "tool",
+    "clothing", "shoes", "hat", "bag", "jewelry", "glasses", "watch", "uniform",
+    "event", "party", "wedding", "birthday", "concert", "festival", "ceremony", "meeting",
+    "sport", "game", "hobby", "art", "music", "toy", "decoration",
+    "day", "night", "morning", "evening", "sunrise", "sunset", "dawn", "dusk",
+    "summer", "winter", "spring", "autumn", "sunny", "cloudy", "rainy", "snowy",
+    "natural_light", "artificial_light", "sunlight", "shadow", "reflection", "backlight",
+    "bright", "dark", "colorful", "monochrome", "black_and_white", "vibrant", "muted", "vintage",
+    "sharp", "blurred", "bokeh", "wide_shot", "aerial_view", "top_down", "low_angle",
+    "minimal", "busy", "crowded", "empty", "clean", "messy",
+    "happy", "sad", "calm", "peaceful", "energetic", "romantic", "dramatic", "nostalgic",
+    "casual", "formal", "cozy", "modern", "rustic", "elegant", "playful"
+  ]
+}
