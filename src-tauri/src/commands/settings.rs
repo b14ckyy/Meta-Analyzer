@@ -282,9 +282,10 @@ pub async fn preview_video_prompt(app: AppHandle, profile: VideoProfile) -> Resu
 /// Wird für "Show Reasoning" in der UI verwendet.
 #[tauri::command]
 pub async fn open_file(path: String) -> Result<(), String> {
-    std::process::Command::new("cmd")
-        .args(["/c", "start", "", &path])
-        .spawn()
+    let mut cmd = std::process::Command::new("cmd");
+    cmd.args(["/c", "start", "", &path]);
+    crate::processing::video_decoder::no_window(&mut cmd);
+    cmd.spawn()
         .map_err(|e| format!("Failed to open file: {}", e))?;
     Ok(())
 }

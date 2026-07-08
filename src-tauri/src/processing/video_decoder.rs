@@ -83,18 +83,37 @@ fn find_binary(name: &str) -> Option<PathBuf> {
     None
 }
 
+/// Prevent Windows from flashing a console window for every ffmpeg/ffprobe child
+/// process. Without this, each spawn from the GUI/release build (windows
+/// subsystem) briefly pops a console window. No-op on non-Windows platforms.
+pub(crate) fn no_window(cmd: &mut Command) {
+    #[cfg(windows)]
+    {
+        use std::os::windows::process::CommandExt;
+        cmd.creation_flags(0x0800_0000); // CREATE_NO_WINDOW
+    }
+    #[cfg(not(windows))]
+    {
+        let _ = cmd;
+    }
+}
+
 /// Erstelle einen Befehl mit dem gefundenen ffmpeg-Binary.
 fn ffmpeg_cmd() -> Result<Command> {
     let path = find_ffmpeg()
         .ok_or_else(|| anyhow!("ffmpeg not found — neither next to the app nor in PATH"))?;
-    Ok(Command::new(path))
+    let mut cmd = Command::new(path);
+    no_window(&mut cmd);
+    Ok(cmd)
 }
 
 /// Erstelle einen Befehl mit dem gefundenen ffprobe-Binary.
 fn ffprobe_cmd() -> Result<Command> {
     let path = find_ffprobe()
         .ok_or_else(|| anyhow!("ffprobe not found — neither next to the app nor in PATH"))?;
-    Ok(Command::new(path))
+    let mut cmd = Command::new(path);
+    no_window(&mut cmd);
+    Ok(cmd)
 }
 
 // ── Public API ────────────────────────────────────────────────────

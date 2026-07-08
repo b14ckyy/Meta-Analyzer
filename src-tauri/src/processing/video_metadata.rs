@@ -119,6 +119,7 @@ fn write_tags_via_ffmpeg(path: &str, title: &str, description: &str, genre: &str
     let temp_path = format!("{}.tmp_meta_analyzer.{}", path, temp_ext);
 
     let mut cmd = std::process::Command::new(&ffmpeg_path);
+    crate::processing::video_decoder::no_window(&mut cmd);
     cmd.arg("-i").arg(path);
     cmd.arg("-codec").arg("copy");
     // Bewusst KEIN `-movflags use_metadata_tags` — siehe Doc-Kommentar an write_video_metadata.
